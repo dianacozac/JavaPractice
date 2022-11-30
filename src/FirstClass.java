@@ -28,9 +28,24 @@ public class FirstClass {
         }
 
         boolean isCar = false;
-        if ( isCar ) {
+        if ( !isCar ) {
             System.out.println(" this is not suppose to happen");
         }
+
+//            Terrary Operator
+
+            String MakeOfCar = "Vw";
+            boolean isDomestic = MakeOfCar == "Vw" ? false : true ;  //boolean isDomestic ( MakeOfCar != "WV")
+
+            if (isDomestic) {
+
+                System.out.println( " This car is domestic in our country");
+            }
+
+               String s = (isDomestic) ? "This car is domestic" : " This car is not domestic"  ;
+               System.out.println( s );
+
+//        }
 
 
 
