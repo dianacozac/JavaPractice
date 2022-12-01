@@ -51,14 +51,23 @@ public class FirstClass {
         double secondValue = 80.00d ;
         double Total = firstValue + secondValue * 100.00 ;
         System.out.println ( "My Values total is " + Total );
-        double theRemainder = Total % 40.00 ;
+        double theRemainder = Total % 40.00d ;
         System.out.println ( "theremainder " + theRemainder );
         boolean isNoRemainder = (theRemainder == 0) ? false : true ;
         System.out.println( "isNoRemainder = " + isNoRemainder);
+        if (isNoRemainder) {
+            System.out.println( " got some reminder ");
+        }
+//    incremeting - compound -decrementing
 
-//        }
+        int result = 4;
+   //     result = result +1;
+   //    result++;
+        result-= 1;  // "-=" e un operator
+        System.out.println ( "the result is " + result) ;
 
-
-
+        double y= 6;
+        y -= 5.5 ;
+        System.out.println ( "the result is " + y) ;
     }
 }
